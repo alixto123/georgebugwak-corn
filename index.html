@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Byahe by Michael Pangilinan</title>
+  <style>
+    /* Body styles */
+    body {
+      font-family: 'Arial', Helvetica, sans-serif;
+      background-image: url('alix00.gif'); /* Custom background */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header styles */
+    header {
+      background-color: rgb(225,225,220);
+      padding: 30px;
+      text-align: center;
+      font-size: 2.5rem;
+      color: black;
+      opacity: 0.9;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    /* Section and video container styling */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 20px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* Navigation (Video player) styling */
+    nav {
+      flex: 1;
+      max-width: 45%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Lyrics section styling */
+    section {
+      flex: 1;
+      max-width: 50%;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      box-sizing: border-box;
+      color: #333;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+      max-height: 600px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      font-size: 2rem;
+    }
+
+    h3 {
+      color: #444;
+    }
+
+    .color1 {
+      color: #e0a800; /* Using a gold/yellow tint for highlights */
+      font-weight: bold;
+    }
+
+    #overflow {
+      max-height: 500px;
+      overflow-y: scroll;
+      padding: 15px;
+      border: 1px solid #eb7e18;
+      border-radius: 5px;
+      background-color: rgba(241, 249, 16, 0.1);
+      opacity: 0.9;
+    }
+
+    /* Scroll bar styling */
+    #overflow::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    #overflow::-webkit-scrollbar-thumb {
+      background-color: #eb7e18;
+      border-radius: 10px;
+    }
+
+    #overflow::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav,
+      section {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* Animations */
+    header {
+      animation: fadeIn 2s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Byahe by Michael Pangilinan</h1>
+  </header>
+
+  <div class="container">
+    <!-- Video section -->
+    <nav>
+      <video controls>
+        <source src="alix.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </nav>
+
+    <!-- Lyrics section -->
+    <section>
+      <h2>LYRICS</h2>
+      <div id="overflow"><b>
+        <p>Alam mo ang ganda mo pala<br>
+            Pagtumawa ang yong mata<br>
+            Hinahabol ko ang bawat mong tingin<br>
+            Pero ito'y di' mo napapansin<br>
+            Wala akong maipagmamayabang<br>
+            Porma ko'y pasimple simple lang<br>
+            Sino ba ako walang dating sayo<br>
+            Di tayo bagay sobra mong ganda talaga<br>
+            Di ko alam hanggang kailan tayo<br>
+            Di ko mabago ang ikot ng mundo<br>
+            Pero sama ka sa aking biyahe<br>
+            Atin lamang ang araw na ito<br>
+            Ang buhay ay sinasakyan lang yan<br>
+            Di ko alam ang tungo kung saan<br>
+            Pagsumama ka sa aking biyahe<br>
+            Iaalay ko ang puso ko ohhhh...<br>
+            Oh kay sarap mong kasama<br>
+            Napapawi mga problema<br>
+            Magaan dalhin kay sarap lambingin<br>
+            Yun ngalang ay kaibigan kita<br>
+            Akala ko mapipigil ko<br>
+            Pero laging nahuhulog sayo<br>
+            Nang yong mabuking tinanong mo sakin<br>
+            Dapat bang pagbigyan pag-ibig natin mahalin...<br>
+          Di ko alam hanggang kailan tayo<br>
+            Di ko mabago ang ikot ng mundo<br>
+            Pero sama ka sa aking biyahe<br>
+            Atin lamang ang araw na ito<br>
+            Ang buhay ay sinasakyan lang yan<br>
+            Di ko alam ang tungo kung saan<br>
+            Pagsumama ka sa aking biyahe<br>
+            Iaalay ko ang puso ko ohhhh...<br>
+            Oh kay sarap mong kasama<br>
+            Napapawi mga problema<br>
+            Magaan dalhin kay sarap lambingin<br>
+            Yun ngalang ay kaibigan kita<br>
+            Akala ko mapipigil ko<br>
+            Pero laging nahuhulog sayo<br>
+            Nang yong mabuking tinanong mo sakin<br>
+            Dapat bang pagbigyan pag-ibig natin mahalin...<br>
+        </p></b>
+      </div>
+    </section>
+  </div>
+
+</body>
+</html>
